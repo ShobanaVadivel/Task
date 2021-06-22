@@ -1,0 +1,20 @@
+// JSON data
+const myDetails = {
+  "name":"Shobana Vadivel",
+   "age":30, "Degree":"B.tech",
+   "Experience":"5 years",
+   "Mobile":8220479116,
+   "Company":"Masstech",
+   "Language":[
+     "Tamil",
+     "English",
+     "Hindi",
+    ],
+    "address": {
+      "streetaddress": "Hospital colony",
+      "city": "Salem",
+      "state": "Salem",
+      "postalcode": "636401"
+  }
+   };
+console.log(myDetails);
