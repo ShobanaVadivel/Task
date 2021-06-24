@@ -16,6 +16,13 @@ typeof(NaN)
 "number"
 
 
+ //what is prototype?
+ The prototype is an object that is associated with every functions and objects by default in JavaScript.
+ When a function is created in JavaScript, the JavaScript engine adds a prototype property to the function.
+ This prototype property is an object (called a prototype object) that has a constructor property by default.
+ The constructor property points back to the function on which prototype object is a property.
+
+
 // JSON data
 const myDetails = {
   "name":"Shobana Vadivel",
