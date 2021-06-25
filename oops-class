@@ -1,17 +1,17 @@
 class student {
-  constructor(name, age, company, mobile, city) {
+  constructor(name, age, college, mobile, city) {
     this.name = name;
     this.age = age;
-    this.company = company;
+    this. college = college;
     this.mobile = mobile;
     this.city = city;
   }
 }
 
-stu1= new student("john",26,IBM,632788232,chennai);
-stu2= new student("anu",23,IBM,6327345328,chennai);
-stu3= new student("josh",29,IBM,6309188922,chennai);
-stu4= new student("malar",21,IBM,632767930,chennai);
+stu1= new student("john",26,IIM,632788232,chennai);
+stu2= new student("anu",23,IIM,6327345328,chennai);
+stu3= new student("josh",29,IIM,6309188922,chennai);
+stu4= new student("malar",21,IIM,632767930,chennai);
 console.log(stu1);
 console.log(stu2.name);
 cosole.log(stu4.city);
