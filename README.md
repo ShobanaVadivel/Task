@@ -1,10 +1,12 @@
 //Object
+
 var obj={"person":murali, "age":36, "company":"saipem"}
 for(var i in obj){
 console.log(i); //give key as output
 console.log(obj[i]); //give value as output
 }
 // Array of Objects
+
 var obj=[{"person":"murali", "age":38, "company":"saipem"},
 {"person":"arul", "age":36, "company":"saipem1"},
 {"person":"srini", "age":31, "company":"saipem2"}]
@@ -18,7 +20,7 @@ console.log(obj[i].person,obj[i].age,obj[i].company); // printing all vaues of k
 var obj=[{"person":"murali", "age":38, "company":"saipem"},
 {"person":"arul", "age":36, "company":"saipem1"},{"person":"srini", "age":31, "company":"saipem2"}]
 for(var i in obj){
-for(var j in obj[i])  {                                                                                                                                                              console.log(j+":"+obj[i][j]); }
+for(var j in obj[i])  {                                                                                                                                                              console.log(j+":"+obj[i][j]); // person:murali format}
 }
 
 //API
