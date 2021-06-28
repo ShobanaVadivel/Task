@@ -5,6 +5,8 @@ for(var i in obj){
 console.log(i); //give key as output
 console.log(obj[i]); //give value as output
 }
+
+
 // Array of Objects
 
 var obj=[{"person":"murali", "age":38, "company":"saipem"},
